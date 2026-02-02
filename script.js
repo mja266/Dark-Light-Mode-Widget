@@ -19,3 +19,5 @@ toggleButton.addEventListener("click", () => {
 
 const savedTheme = localStorage.getItem("theme") || "light";
 setTheme(savedTheme);
+
+console.log("script.js loaded");
